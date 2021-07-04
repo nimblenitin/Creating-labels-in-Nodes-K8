@@ -10,7 +10,7 @@ Steps followed:
 1. Add Label to Node
 $ kubectl label nodes <nodename> site=india
 
-2. Create the Pod by using YAML with Node seletion mentioned
+2. Create the Pod by using YAML with Node selection mentioned
 $ kubectl apply -f node-specific-pod --record
 
 3. Check whether the Pod was created in the correct Node with corresponding Label
