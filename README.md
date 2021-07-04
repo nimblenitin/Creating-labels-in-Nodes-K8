@@ -7,7 +7,8 @@ Steps followed:
 
 *As Root*
 ```
-1. Add Label to Node
+1. Add Label to Node after finding the Node name.
+$ kubectl get nodes 
 $ kubectl label nodes <nodename> site=india
 
 2. Create the Pod by using YAML with Node selection mentioned
